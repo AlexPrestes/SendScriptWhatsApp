@@ -6,7 +6,7 @@ function enviarScript(scriptText){
         function myLoop() {         
             setTimeout(function() {   
                 if(lines[i].trim() != ""){
-                    console.log(lines[i]); 
+#                 console.log(lines[i]); 
 
                     window.InputEvent = window.Event || window.InputEvent;
 
@@ -27,7 +27,7 @@ function enviarScript(scriptText){
                 if (i < lines.length) {           
                     myLoop();             
                 }                       
-            }, 250)
+            }, 160)
         }
 
         myLoop(); 
